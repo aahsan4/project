@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    @apply antialiased text-gray-800;
+  }
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  @apply text-3xl font-bold text-heal-primary;
+}
